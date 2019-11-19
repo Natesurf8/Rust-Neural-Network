@@ -6,6 +6,7 @@ extern crate opengl_graphics;
 mod graph;
 use graph::Graph;
 
+mod network;
 
 fn main() {
     let gl_version = opengl_graphics::OpenGL::V3_2;
